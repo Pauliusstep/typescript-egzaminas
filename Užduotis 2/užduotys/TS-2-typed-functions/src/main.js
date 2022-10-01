@@ -1,10 +1,4 @@
 "use strict";
-/*
-  Funkcijos aprašomos tokiu būdu:
-    * apibūdinami(aprašomi tipais) visi funkcijos parametrai
-    * nurodomas funkcijos iškvietimo grąžinimo tipas
-*/
-// Funkcija aprašoma deklaruojant
 const addNumbers = (num1, num2) => {
     return num1 + num2;
 };
@@ -22,10 +16,6 @@ console.log({
     joinedString,
     initials,
 });
-/*
-  Kuomet funkcijos nieko negrąžina, turime nurodyti tipą
-    * void - funkcijos grąžinimo tipas nebus reikalaujamas
-*/
 function printRedText(text) {
     console.log(`%c ${text}`, 'color: #ee0000');
 }
@@ -78,3 +68,4 @@ console.group('2. Aprašykite funkcijų tipus prieš deklaruojant funkcijas');
     printBlueText('printBlueText funkcijos argumentas');
 }
 console.groupEnd();
+//# sourceMappingURL=main.js.map

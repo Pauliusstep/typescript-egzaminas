@@ -1,15 +1,10 @@
 "use strict";
-/*
-  Objektų tipai aprašomi aprašant kiekvieną savybę atskirai. Jeigu savybė nėra privaloma, prie savybės pavadinimo rašome klaustuką
-*/
-// Minimaliai aprašytas Person tipo objektas
 const person1 = {
     id: '39304075689',
     name: 'Verundijus',
     surname: 'Bauda',
     age: 51,
 };
-// Pilnai aprašytas Person tipo objektas
 const person2 = {
     id: '39304075689',
     name: 'Ryja',
@@ -33,7 +28,6 @@ const printCouple = (p1, p2) => {
     console.log(`${p1Fullname} + ${p2Fullname} = ❤`);
 };
 printCouple(person1, person2);
-// Atlikite užduotis, funkcijas aprašydami tipais
 console.group('1. Sukurkite funkciją kuri patikrina ar žmogus yra pilnametis');
 {
     const isAdult = (p) => p.age >= 18;
@@ -64,3 +58,4 @@ console.group('3. Sukurkite funkciją, kuri grąžina žmogaus incialus');
     });
 }
 console.groupEnd();
+//# sourceMappingURL=main.js.map

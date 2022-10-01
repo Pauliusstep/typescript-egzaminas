@@ -21,7 +21,10 @@ console.group('1 - https://edabit.com/challenge/nuXdWHAoHv9y38sn7');
 console.groupEnd();
 console.group('2 - https://edabit.com/challenge/9KEKJG5PZTFmG3Zau');
 {
-    const solution = (itemObj, itemName, itemValue) => (Object.assign(Object.assign({}, itemObj), { [itemName]: itemValue }));
+    const solution = (itemObj, itemName, itemValue) => ({
+        ...itemObj,
+        [itemName]: itemValue,
+    });
     const solutionArgs1 = [{}, "Brutus", 300];
     const solutionArgs2 = [{ piano: 500 }, "Brutus", 400];
     const solutionArgs3 = [{ piano: 500, stereo: 300 }, "Caligula", 440];
@@ -33,3 +36,4 @@ console.group('2 - https://edabit.com/challenge/9KEKJG5PZTFmG3Zau');
     console.log(solutionArgs3, result3);
 }
 console.groupEnd();
+//# sourceMappingURL=main.js.map

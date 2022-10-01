@@ -1,14 +1,4 @@
 "use strict";
-/*
-TypeScript'e galioja tie patys primityvūs duomenų tipai kaip ir JavaScript'e:
-  * string - simbolių darinys
-  * number - skaičius
-  * boolean - loginis kintamasis
-  * null - tipas pasakantis, kad reikėmės/nuorodos nėra
-  * undefined - neapibrėžtas tipas
-  * symbol - skirtas unikalioms reikšmėms kurti - šio kurso metu jo nenagrinėsime
-*/
-// Kuriant kintamuosius, reikia šiuos tipus priskirti kintamiesiems:
 const height = 175.0;
 const weight = 78.2;
 const fullname = 'Serbentautas';
@@ -38,3 +28,4 @@ console.group('1. Priskirkite kintamiesiems duomenų tipus');
     });
 }
 console.groupEnd();
+//# sourceMappingURL=primitive-types.js.map

@@ -1,9 +1,4 @@
 "use strict";
-/*
-  Aprašant masyvų tipus reikia nurodyti kokie elementai sudarys masyvai, galimos 2 sintaksės:
-    * tipas[] -> number[], string[], Person[] ir t.t.
-    * Array<tipas> -> Array<number>, Array<string>, Array<Person> ir t.t.
-*/
 const numbers = [1, 2, 3, 4, 5, 6];
 const names = ['Jagnita', 'Kimparas', 'Pitonkas', 'Fasalija'];
 const people = [{
@@ -76,23 +71,12 @@ console.group('Užduotys');
     console.groupEnd();
     console.group('2. Sukurkite ir tipais aprašykite funkciją, kuri sudarytų string\'ą iš string\'ų masyvo elementų pirmųjų raidžių');
     {
-        /*
-          Pvz.:
-           * ['Lietuviškas', 'Nepriklausomas', 'Kanalas'] -> LNK
-           * ['Lietuvos', 'Respublikos', 'Televizija'] -> LRT
-           * ['Loughing', 'Out', 'Loud'] -> LOL
-        */
     }
     console.groupEnd();
     console.group('3. Sukurkite ir tipais aprašykite funkciją, kuri saudaugintų visus number masyvo skaičius');
     {
-        /*
-          Pvz.:
-           * [1, 7, 8] -> 56
-           * [98, 74, 5, 0] -> 0
-           * [17, 10, 5] -> 850
-        */
     }
     console.groupEnd();
 }
 console.groupEnd();
+//# sourceMappingURL=main.js.map
